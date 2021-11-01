@@ -36,7 +36,7 @@ public class StreamMidTest_stateLess {
         List<Person> personList = Arrays.asList(new Person("w1",1),new Person("w2",2),new Person("w3",3));
         Stream<List<Person>> integerStream = Stream.of(personList);
         integerStream.forEach(System.out::print);
-
+        System.out.println("零食");
         personList.stream().filter(person -> person.age > 1).collect(Collectors.toList()).forEach(System.out::print);
         System.out.println();
         System.out.println("==== iterate ===");
@@ -92,6 +92,26 @@ public class StreamMidTest_stateLess {
         set2.forEach(System.out::println);
     }
 
+    public void list_to_map2() {
+        Person p1 = new Person("小王",13);
+        Person p3 = new Person("小王",14);
+        Person p2 = new Person("小一",14);
+        Person p4 = new Person("小二",13);
+        List<Person> list = new ArrayList<>(4);
+        list.add(p1);
+        list.add(p2);
+        list.add(p3);
+        list.add(p4);
+        Map<Integer,String> map = new HashMap<>();
+        list.forEach(person -> {
+            Integer age = person.getAge();
+            map.putIfAbsent(age, person.getName());
+        });
+        System.out.println("map = " + map);
+        Map<Integer, String> collect = list.stream().collect(Collectors.toMap(Person::getAge, Person::getName));
+        System.out.println(collect);
+    }
+
 
     /**
      *  list列表转set
@@ -113,14 +133,31 @@ public class StreamMidTest_stateLess {
         Map<String,Integer> map1 = personList.stream().collect(Collectors.toMap(Person::getName,Person::getAge));
         map1.keySet().forEach(System.out::println);
         map1.values().forEach(System.out::println);
-
         // 将person列表转成map<String,String>的格式
         Map<String, String> collect = personList.stream().collect(Collectors.toMap(person -> person.getAge().toString(), Person::getName));
         collect.keySet().forEach(System.out::println);
 
     }
     /**
-     *  TODO set集合转list列表
+     *  双层list 转 list, 借助中间步骤：流
+     *  具体操作：双层list利用flatMap()先转换成流，再将流转换成单层List
+     *  总结：flatMap具有将集合 "扁平化" 的特点
+     */
+    public void double_list_to_list() {
+        List<List<Person>> lists = Arrays.asList(Arrays.asList(new Person("w1",10)),Arrays.asList(new Person("w2",20)));
+        List<Person> result = new ArrayList<>();
+        // 方式一：
+        for (List<Person> list : lists) {
+            List<Person> collect = list.stream().collect(Collectors.toList());
+            result.addAll(collect);
+        }
+        // 方式二：
+        Stream<Person> personStream = lists.stream().flatMap(List::stream);
+        List<Person> collect = personStream.collect(Collectors.toList());
+        collect.forEach(System.out::println);
+    }
+    /**
+     *  set集合转list列表
      */
     public void set_to_list() {
         // 提取person列表的所有姓名，并存放到set集合中
@@ -128,10 +165,10 @@ public class StreamMidTest_stateLess {
         personSet.add(new Person("t1",10));
         personSet.add(new Person("t2",4));
         personSet.add(new Person("t3",49));
-//        List<Person> result = new ArrayList<>(personSet);
-//        result.forEach(System.out::println);
-        List<Person> personList = personSet.stream().collect(Collectors.toList());
+        List<Person> personList = new ArrayList<>(personSet);
+        List<String> personNameList = personSet.stream().map(Person::getName).collect(Collectors.toList());
         personList.forEach(System.out::println);
+        personNameList.forEach(System.out::println);
     }
     public void set_to_map() {
         Set<Person> personSet = new HashSet<>();
@@ -233,7 +270,10 @@ public class StreamMidTest_stateLess {
 //        streamMidTest.stateLess_map();
 //        streamMidTest.map_to_list();
 //        streamMidTest.string_to_class();
-        streamMidTest.map_to_other();
+//        streamMidTest.map_to_other();
+//        streamMidTest.double_list_to_list();
+//        streamMidTest.StreamStaticMethod();
+        streamMidTest.list_to_map2();
     }
 
 

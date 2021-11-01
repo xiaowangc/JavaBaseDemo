@@ -5,6 +5,7 @@ import cn.hutool.core.date.format.FastDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 /** java.time.* 时间类的使用
@@ -107,12 +108,42 @@ public class TimeDemo1 {
 
     }
 
+    /***
+     *  下个月1号
+     */
+    public void nextMonth_DayOne() {
+        LocalDateTime localDateTime = LocalDateTime.now()
+                                                   .plusMonths(1)
+                                                   .withDayOfMonth(1)
+                                                   .withHour(0)
+                                                   .withMinute(0).withSecond(0)
+                                                   .withNano(0);
+        long nextMonth = localDateTime.atZone(ZoneId.systemDefault()).toEpochSecond();
+        long now = LocalDateTime.now().atZone(ZoneId.systemDefault()).toEpochSecond();
+        long expire = 7 * 3600 * 24;
+        if (now + 7 * 3600 * 24 > nextMonth) {
+            expire = nextMonth - now;
+        }
+        long between = ChronoUnit.SECONDS.between(LocalDateTime.now(), LocalDateTime.now()
+                                                                                    .plusMonths(1)
+                                                                                    .withDayOfMonth(1)
+                                                                                    .withHour(0)
+                                                                                    .withMinute(0).withSecond(0)
+                                                                                    .withNano(0));
+        System.out.println("expire is :" +  expire);
+        System.out.println("between is :" + between);
+        System.out.println("seven day is " + 7 * 3600 *24);
+
+
+        System.out.println(localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+
+    }
 
     public static void main(String[] args) {
         TimeDemo1 demo1 = new TimeDemo1();
 //        demo1.localTimeDemo();
 //        demo1.localDateDemo();
-        demo1.localDateTimeDemo();
+        demo1.nextMonth_DayOne();
     }
 
 

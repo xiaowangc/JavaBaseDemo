@@ -1,9 +1,6 @@
 package com.chige.stream;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -32,9 +29,12 @@ public class StreamMidTest_stateFul {
         // 去重并排序
         stream.sorted().distinct().forEach(System.out::println);
 
-        List<Person> personList = Arrays.asList(new Person(1L,"x1",10),
-                new Person(2L,"x2",13),
-                new Person(5L,"x3",11));
+        Set<Person> personList = new HashSet<>();
+        personList.add(new Person(1L,"x1",14));
+        personList.add(new Person(2L,"x2",13));
+        personList.add(new Person(5L,"x3",11));
+        personList.add(new Person(0L,"x49",165));
+        personList.add(new Person(5L,"x3",11));
         // 有参-自定义比较器
         personList.stream().sorted(Comparator.comparing(Person::getAge)).collect(Collectors.toList()).forEach(System.out::println);
     }

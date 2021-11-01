@@ -3,7 +3,7 @@ package com.chige.thread.util;
 import java.util.concurrent.*;
 
 public class ThreadPoolUtils {
-
+    private ThreadPoolUtils() {}
     private static BlockingDeque<Runnable> workQueue = new LinkedBlockingDeque<>(1000);
 
     private static ThreadPoolExecutor THREAD_POLL = new ThreadPoolExecutor(
