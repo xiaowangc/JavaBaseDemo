@@ -9,6 +9,8 @@ import javax.net.ssl.HostnameVerifier;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.*;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 /**
@@ -131,6 +133,14 @@ public class OptionalTest {
         test.wayThree();
         test.wayTwo();
         test.wayOne();
+        Optional<String> s = Optional.ofNullable("1");
+        Object function = Function.identity().apply("r4");
+        s.orElse("2");
+        s.orElseGet(() -> {
+            return "3";
+        });
+        boolean present = s.isPresent();
+
     }
     /** 医院 */
     @Data
