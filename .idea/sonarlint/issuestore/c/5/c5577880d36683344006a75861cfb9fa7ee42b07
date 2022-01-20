@@ -1,0 +1,35 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(æøäß
+E
+java:S3740"/Provide the parametrized type for this generic.(‹½èå
+E
+java:S1611 "/Remove the parentheses around the "e" parameter(ä®à 
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÒÇ¼’
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ô„½¿ıÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ôşÇ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.( —–ÿÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ñÁ˜¾ùÿÿÿÿ
+A
+java:S1481L"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(ƒ…œ£
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(…ƒğõøÿÿÿÿ
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(”ìè·
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(¶¿‹Ñ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷ğåŸ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(§Şº
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(‚êÙıüÿÿÿÿ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(§—ˆâ
+f
+java:S3252˜"OUse static access with "cn.hutool.core.collection.CollUtil" for "intersection".(ì¼˜
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(÷ğåŸ
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(ü ÁÎ
+L
+java:S1854¢"6Remove this useless assignment to local variable "p4".(£ÊŸ2
+=
+java:S1481¢"'Remove this unused "p4" local variable.(£ÊŸ2
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(™×Ã
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ
