@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 /**
  * @author wangyc
@@ -49,11 +46,25 @@ public class OptionalDemo {
         List<Person> personList = Arrays.asList(new Person("s1",1),new Person("s2",2));
         Optional<List<Person>> optional = Optional.of(personList);
         optional.orElseGet(() -> new ArrayList<>());
+
+    }
+
+    public static void main(String[] args) {
+        List<Person> personList = Arrays.asList(new Person("s1",1),new Person("s2",2));
+        Object obj = Optional.ofNullable(personList)
+                             .map(person -> {
+                                 if (person != null) {
+                                     System.out.println("不为空");
+                                     throw new RuntimeException("异常");
+                                 }
+                                 return null;
+                             }).orElse(Collections.emptyList());
+        System.out.println(obj);
     }
     @Data
     @AllArgsConstructor
     @NoArgsConstructor
-    public class Person {
+    public static class Person {
         private String name;
         private Integer age;
     }
