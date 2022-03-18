@@ -24,6 +24,7 @@ public class ImmutableMapDemo {
                 .put("month", 3)
                 .build();
         Integer day = immutableMap.get("day");
+        // ImmutableMap.of(); of提供入参最多5对，超过5对需要使用builder方法。
 
         // 不可变的bitMap
         ImmutableBiMap<String, String> immutableBiMap = ImmutableBiMap.<String, String>builder()
@@ -67,5 +68,6 @@ public class ImmutableMapDemo {
 
     public static void main(String[] args) {
         guavaImmutableMap();
+
     }
 }

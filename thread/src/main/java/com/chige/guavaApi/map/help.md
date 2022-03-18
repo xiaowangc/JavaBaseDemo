@@ -14,6 +14,7 @@ Guava中封装的一些关于Map的骚操作:
                 .put("word", 2)
                 .put("month", 3)
                 .build();
+        // ImmutableMap.of(); of提供入参最多5对，超过5对需要使用builder方法。
 
         // 不可变的bitMap
         ImmutableBiMap<String, String> immutableBiMap = ImmutableBiMap.<String, String>builder()
