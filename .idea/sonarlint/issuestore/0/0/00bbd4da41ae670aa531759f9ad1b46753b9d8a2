@@ -1,0 +1,26 @@
+
+J
+java:S3740 "/Provide the parametrized type for this generic.(ê¬¬ûüÿÿÿÿ
+J
+java:S3740 "/Provide the parametrized type for this generic.(ê¬¬ûüÿÿÿÿ
+S
+java:S18544"=Remove this useless assignment to local variable "stringSet".(à‹¢À
+T
+java:S18543">Remove this useless assignment to local variable "monthList2".(Äè¤¸
+[
+java:S1854 "@Remove this useless assignment to local variable "treeMultimap".(ê¬¬ûüÿÿÿÿ
+L
+java:S1481 "1Remove this unused "treeMultimap" local variable.(ê¬¬ûüÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Ò€ž®ýÿÿÿÿ
+E
+java:S14813"/Remove this unused "monthList2" local variable.(Äè¤¸
+D
+java:S14814".Remove this unused "stringSet" local variable.(à‹¢À
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ø²Ðˆ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(éÅ”½
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÐþØÍøÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ÜØÁ¸þÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(—Ž½óþÿÿÿÿ
+a
+java:S1192%"FDefine a constant instead of duplicating this literal "month" 4 times.(ìäøýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ¬—àþÿÿÿÿ

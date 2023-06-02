@@ -1,5 +1,7 @@
 package com.chige.thread.util;
 
+import org.omg.PortableServer.ThreadPolicy;
+
 import java.util.concurrent.*;
 
 public class ThreadPoolUtils {
@@ -21,6 +23,9 @@ public class ThreadPoolUtils {
     }
     public static CompletionService getCompletionService() {
         return completionService;
+    }
+    public static ThreadPoolExecutor getThreadPoll() {
+        return THREAD_POLL;
     }
 
 }

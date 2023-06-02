@@ -1,0 +1,30 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+
+java:S1130 "wRemove the declaration of thrown exception 'java.lang.NoSuchFieldException', as it cannot be thrown from method's body.(¼ù˜ø
+¢
+java:S1130 "‹Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException', as it cannot be thrown from method's body.(¼ù˜ø
+›
+java:S1130 "„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(¼ù˜ø
+
+java:S1130 "xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(¼ù˜ø
+
+java:S1130 "yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(¼ù˜ø
+V	java:S125!"<This block of commented-out lines of code should be removed.(ÈÖ¹óÿÿÿÿÿ
+2
+java:S1116%"Remove this empty statement.(ÃŠ–¼
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(ìç‹£
+U
+java:S1128"?Remove this unused import 'javafx.beans.binding.StringBinding'.(óÃ
+V
+java:S1128"ARemove this unused import 'java.util.function.IntBinaryOperator'.(ËÈD
+@
+java:S1068C"*Remove this unused "unitId" private field.(‚€€Û
+J
+java:S1068D"/Remove this unused "proxyUnitId" private field.(‚ıÂòşÿÿÿÿ
+F
+java:S1068E"+Remove this unused "groupId" private field.(«¹×Šøÿÿÿÿ
+A
+java:S1068F"+Remove this unused "goodsId" private field.(ƒàğÊ
+G
+java:S1068G"1Remove this unused "packageTypeId" private field.(µ¦”ç

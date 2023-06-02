@@ -1,9 +1,7 @@
 
-A
-java:S1172"&Remove these unused method parameters.(ôÒÔËúÿÿÿÿ
-S
-java:S1128"=Remove this unused import 'cn.hutool.core.thread.ThreadUtil'.(¶Åª«
-\
-java:S1128"ARemove this unused import 'org.apache.commons.lang3.ThreadUtils'.(§ı€ùùÿÿÿÿ
+g
+java:S1172"LRemove these unused method parameters "coreSize", "maxSize", "keepLiveTime".(ôÒÔËúÿÿÿÿ
 Z
-java:S1128"?Remove this unused import 'java.util.concurrent.ThreadFactory'.(ã’Ÿºúÿÿÿÿ
+java:S1128"=Remove this unused import 'cn.hutool.core.thread.ThreadUtil'.(¶Åª«8ğ‰¥‘¨0
+a
+java:S1128"?Remove this unused import 'java.util.concurrent.ThreadFactory'.(ã’Ÿºúÿÿÿÿ8ğ‰¥‘¨0

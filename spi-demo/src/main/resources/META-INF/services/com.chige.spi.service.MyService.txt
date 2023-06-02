@@ -1,0 +1,2 @@
+com.chige.spi.service.impl.MyServiceAImpl
+com.chige.spi.service.impl.MyServiceBImpl

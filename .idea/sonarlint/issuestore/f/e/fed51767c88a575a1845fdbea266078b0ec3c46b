@@ -1,0 +1,10 @@
+
+™
+java:S1130"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(ø†—¤ÿÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(‚Ğçşÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ÛÀ•œúÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ü§Çü
+_
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(†ëˆçùÿÿÿÿ
+y
+java:S2142:"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ß•Äøÿÿÿÿ

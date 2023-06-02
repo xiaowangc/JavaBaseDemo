@@ -1,0 +1,11 @@
+
+d	java:S116"ORename this field "SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ôæ¼
+7
+java:S1170"!Make this final field static too.(£ôæ¼
+P
+java:S1854 ":Remove this useless assignment to local variable "result".(´Ã¼¾
+A
+java:S1481 "+Remove this unused "result" local variable.(´Ã¼¾
+7
+java:S1643'"Use a StringBuilder instead.(Šã¨‰ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ž†ˆØýÿÿÿÿ

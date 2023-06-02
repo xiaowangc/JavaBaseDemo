@@ -1,0 +1,21 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "run2".(¢¡“Òÿÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "run1".(Ğ½Ğíşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ºÓ–ìÿÿÿÿÿ
+D
+java:S1481")Remove this unused "run1" local variable.(Ğ½Ğíşÿÿÿÿ
+G
+java:S1602",Remove useless curly braces around statement(¢¡“Òÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ãûœøÿÿÿÿ
+D
+java:S1481")Remove this unused "run2" local variable.(¢¡“Òÿÿÿÿÿ
+B
+java:S1602#",Remove useless curly braces around statement(¥—ığ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ÿËÈœ
+S
+java:S6213("8Rename this method to not match a restricted identifier.(“¾ÁÒúÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(œ•é‹
+C
+java:S1604"(Make this anonymous inner class a lambda(Ğ½Ğíşÿÿÿÿ

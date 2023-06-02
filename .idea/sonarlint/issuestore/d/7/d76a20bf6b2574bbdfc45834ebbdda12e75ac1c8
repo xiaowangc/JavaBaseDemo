@@ -1,7 +1,7 @@
 
-Q	java:S125"<This block of commented-out lines of code should be removed.(ÆÛˆæ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(—æöÎ
-I
-java:S1068".Remove this unused "namePrefix" private field.(Ä…µ¾ıÿÿÿÿ
-E
-java:S1068"*Remove this unused "nextId" private field.(Àµ„éûÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(ÆÛˆæ8Ì¾™øğ0
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(—æöÎ8Í¾™øğ0
+P
+java:S1068".Remove this unused "namePrefix" private field.(Ä…µ¾ıÿÿÿÿ8Î¾™øğ0
+L
+java:S1068"*Remove this unused "nextId" private field.(Àµ„éûÿÿÿÿ8Î¾™øğ0

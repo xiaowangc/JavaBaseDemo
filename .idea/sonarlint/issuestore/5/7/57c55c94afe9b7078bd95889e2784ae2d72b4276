@@ -1,0 +1,14 @@
+
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Œ‘Ÿï
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(™Ãô¤
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(’•¨íúÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ð£†½
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(“ºøÉúÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.( Êÿïøÿÿÿÿ
+Q
+java:S1128
+";Remove this unused import 'java.nio.channels.SelectionKey'.(Ž°™ˆ
+c
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(šˆŽÌ
+f
+java:S2095"KUse try-with-resources or close this "SocketChannel" in a "finally" clause.(–¦ªÐøÿÿÿÿ

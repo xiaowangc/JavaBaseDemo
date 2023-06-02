@@ -1,0 +1,50 @@
+
+W
+java:S1854"<Remove this useless assignment to local variable "dayCount".(±…åÔûÿÿÿÿ
+H
+java:S1481"-Remove this unused "dayCount" local variable.(±…åÔûÿÿÿÿ
+W
+java:S1854I"ARemove this useless assignment to local variable "stringMapMap1".(ÿõÒ
+X
+java:S1854H"=Remove this useless assignment to local variable "rowMapMap".(­…˜øûÿÿÿÿ
+a
+java:S1854E"FRemove this useless assignment to local variable "transposeColumnMap".(ŞÓíÃûÿÿÿÿ
+Y
+java:S1854D"CRemove this useless assignment to local variable "transposeRowMap".(´¨µ
+W
+java:S1854<":Remove this useless assignment to local variable "rowMap".(¦¾ÍÒ8‰Ì‘Ÿù/
+S
+java:S1854;"=Remove this useless assignment to local variable "columnMap".(—şÓ
+U
+java:S18549":Remove this useless assignment to local variable "values".(Ûˆºêùÿÿÿÿ
+[
+java:S18548"@Remove this useless assignment to local variable "columnKeySet".(íÊ—½ûÿÿÿÿ
+X
+java:S18547"=Remove this useless assignment to local variable "rowKeySet".(¸ùòŞùÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Œ¿Áèøÿÿÿÿ
+I
+java:S14817".Remove this unused "rowKeySet" local variable.(¸ùòŞùÿÿÿÿ
+L
+java:S14818"1Remove this unused "columnKeySet" local variable.(íÊ—½ûÿÿÿÿ
+F
+java:S14819"+Remove this unused "values" local variable.(Ûˆºêùÿÿÿÿ
+K
+java:S1481;".Remove this unused "columnMap" local variable.(—şÓ8Üİ”Ÿù/
+H
+java:S1481<"+Remove this unused "rowMap" local variable.(¦¾ÍÒ8Üİ”Ÿù/
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(—èí‹8«“›Ÿù/
+J
+java:S1481D"4Remove this unused "transposeRowMap" local variable.(´¨µ
+R
+java:S1481E"7Remove this unused "transposeColumnMap" local variable.(ŞÓíÃûÿÿÿÿ
+I
+java:S1481H".Remove this unused "rowMapMap" local variable.(­…˜øûÿÿÿÿ
+H
+java:S1481I"2Remove this unused "stringMapMap1" local variable.(ÿõÒ
+Q
+java:S1128"4Remove this unused import 'cn.hutool.json.JSONUtil'.( «ı¢8Ôç—Ÿù/
+]
+java:S1192-"GDefine a constant instead of duplicating this literal "Trunks" 3 times.(‡Öîå
+\
+java:S1192"FDefine a constant instead of duplicating this literal "Hydra" 7 times.(äº¾ú
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ¬—àşÿÿÿÿ

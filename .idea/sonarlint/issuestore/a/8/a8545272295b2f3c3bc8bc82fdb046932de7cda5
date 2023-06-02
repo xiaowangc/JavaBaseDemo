@@ -1,0 +1,7 @@
+
+N
+java:S1854"8Remove this useless assignment to local variable "flag".(Î±„ı
+?
+java:S1481")Remove this unused "flag" local variable.(Î±„ı
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š²ÊÎúÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ì±

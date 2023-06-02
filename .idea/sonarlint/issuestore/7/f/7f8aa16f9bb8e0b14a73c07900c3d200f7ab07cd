@@ -1,0 +1,11 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶™ğñşÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™±í÷úÿÿÿÿ
+M
+java:S1135."2Complete the task associated to this TODO comment.(äÃ¸¿úÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(µ¸‚¤øÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(ÑƒÀ
+H
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ
+w
+java:S1488;"\Immediately return this expression instead of assigning it to the temporary variable "hour".(£æÃïÿÿÿÿÿ

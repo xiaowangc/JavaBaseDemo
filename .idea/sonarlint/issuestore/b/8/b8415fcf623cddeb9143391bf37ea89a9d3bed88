@@ -1,0 +1,9 @@
+
+i	java:S116"ORename this field "SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¦Â¾þÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(²¦Â¾þÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+A
+java:S1481/"&Remove this unused "s" local variable.(¸âÈ¦üÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ž†ˆØýÿÿÿÿ

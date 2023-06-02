@@ -1,0 +1,23 @@
+
+T
+java:S1854"9Remove this useless assignment to local variable "aNull".(¯µ¶ğÿÿÿÿÿ
+E
+java:S1481"*Remove this unused "aNull" local variable.(¯µ¶ğÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Øê¸ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ï¡©šûÿÿÿÿ
+M	java:S106("9Replace this use of System.out or System.err by a logger.(’¾ÿk
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÙŸØ‡ùÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ÑÀ­üÿÿÿÿ
+h
+java:S5669*"MCast this argument to 'Object' to pass a single element to the vararg method.(ÑÀ­üÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(½‡ëÎøÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(½¦³©
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(¾öˆãıÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(Õ«ßÎ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(½‡ëÎøÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(½¦³©
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(¾öˆãıÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Õ«ßÎ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
