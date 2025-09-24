@@ -11,7 +11,7 @@ public class JsonTest {
 
     public static void main(String[] args) {
         User user = new User();
-        user.setUserName("用户名");
+        user.setUserName("用户名2");
         user.setUserAge("19");
         user.setA("a");
         Company company = new Company();
