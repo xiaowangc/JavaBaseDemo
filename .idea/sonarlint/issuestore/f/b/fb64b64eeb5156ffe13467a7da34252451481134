@@ -1,0 +1,11 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ÎÏŠßıÿÿÿÿ8—ñ‘Ÿ±1
+G	java:S106"+Replace this use of System.out by a logger.(Ší”•8Ç•Î‰µ1
+L	java:S106"+Replace this use of System.out by a logger.(¡¢Šéÿÿÿÿÿ8Ç•Î‰µ1
+G	java:S106"+Replace this use of System.out by a logger.(±§îŠ8˜ÁĞ‰µ1
+_
+java:S1128"=Remove this unused import 'com.chige.utils.json.JacksonUtil'.(»¨¥®ÿÿÿÿÿ8ÕçÌ‰µ1
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8ÕçÌ‰µ1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8šñ‘Ÿ±1

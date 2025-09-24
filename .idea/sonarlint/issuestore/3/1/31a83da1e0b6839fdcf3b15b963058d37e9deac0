@@ -1,0 +1,36 @@
+
+W	java:S125"<This block of commented-out lines of code should be removed.(ÿÿ‚8×À™øğ0
+]	java:S125"<This block of commented-out lines of code should be removed.(üÕûÀşÿÿÿÿ8×À™øğ0
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ8ÙÀ™øğ0
+X	java:S125;"<This block of commented-out lines of code should be removed.(ù¾ß8ÚÀ™øğ0
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ8ÛÀ™øğ0
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ÛÀ™øğ0
+	java:S116‚"]Rename this field "last_ad_target_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷öÃàûÿÿÿÿ8ßÀ™øğ0
+	java:S116ƒ"]Rename this field "last_click_ad_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•æïÊıÿÿÿÿ8åÀ™øğ0
+w	java:S116„"URename this field "last_ad_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û—üüÿÿÿÿ8åÀ™øğ0
+y	java:S116…"WRename this field "last_ad_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò–Âøÿÿÿÿ8åÀ™øğ0
+~	java:S116†"bRename this field "last_ad_promoting_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êè¯n8åÀ™øğ0
+x	java:S116‡"[Rename this field "last_location_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾òÒ¤8åÀ™øğ0
+|	java:S116ˆ"ZRename this field "last_ad_img_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¦ÇÕşÿÿÿÿ8çÀ™øğ0
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8çÀ™øğ0
+\
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8çÀ™øğ0
+Y
+java:S1068‚"6Remove this unused "last_ad_target_url" private field.(÷öÃàûÿÿÿÿ8èÀ™øğ0
+Y
+java:S1068ƒ"6Remove this unused "last_click_ad_time" private field.(•æïÊıÿÿÿÿ8îÀ™øğ0
+Q
+java:S1068„".Remove this unused "last_ad_id" private field.(û—üüÿÿÿÿ8óÀ™øğ0
+S
+java:S1068…"0Remove this unused "last_ad_name" private field.(ò–Âøÿÿÿÿ8õÀ™øğ0
+X
+java:S1068†";Remove this unused "last_ad_promoting_items" private field.(Êè¯n8÷À™øğ0
+R
+java:S1068‡"4Remove this unused "last_location_id" private field.(¾òÒ¤8÷À™øğ0
+V
+java:S1068ˆ"3Remove this unused "last_ad_img_url" private field.(ä¦ÇÕşÿÿÿÿ8÷À™øğ0
+U
+java:S1144"3Remove this unused private "personRelation" method.(öî˜øÿÿÿÿ8÷À™øğ0
+7
+java:S1220""Move this file to a named package.8øÀ™øğ0

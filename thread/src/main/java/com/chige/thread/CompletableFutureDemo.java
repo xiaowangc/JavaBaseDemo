@@ -30,26 +30,29 @@ public class CompletableFutureDemo {
             System.out.println("线程名：" + Thread.currentThread().getName() + ",获取用户姓名:" + userName);
             return 3;
         };
-
+        long start1 = System.currentTimeMillis();
         Future future1 = ThreadPoolUtils.execute(callable1);
         Future future2 = ThreadPoolUtils.execute(callable2);
         Future future3 = ThreadPoolUtils.execute(callable3);
 
+        CompletableFuture completableFuture3 = CompletableFuture.completedFuture(future3.get());
+        System.out.println("获取future3结果：" + completableFuture3.get() + "，耗时：" + (System.currentTimeMillis() - start1));
+
         CompletableFuture completableFuture = CompletableFuture.completedFuture(future1.get());
-        System.out.println("获取future1结果：" + completableFuture.get());
+        System.out.println("获取future1结果：" + completableFuture.get() + "，耗时：" + (System.currentTimeMillis() - start1));
+
 
         CompletableFuture completableFuture2 = CompletableFuture.completedFuture(future2.get());
-        System.out.println("获取future2结果：" + completableFuture2.get());
+        System.out.println("获取future2结果：" + completableFuture2.get() + "，耗时：" + (System.currentTimeMillis() - start1));
 
-        CompletableFuture completableFuture3 = CompletableFuture.completedFuture(future3.get());
-        System.out.println("获取future3结果：" + completableFuture3.get());
+        System.exit(1);
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException, IOException {
-
-//        taskCallback();
-//        testWhenComplete();
+//        test1();
         taskCallback();
+//        testWhenComplete();
+//        testThenApply_ThenApplyAsync();
     }
 
     /**
@@ -78,7 +81,7 @@ public class CompletableFutureDemo {
                 e.printStackTrace();
             }
             return "2";
-        });
+        }, ThreadPoolUtils.getThreadPoll());
 
         CompletableFuture<String> future3 = CompletableFuture.supplyAsync(() -> {
             String userName = null;
@@ -89,13 +92,14 @@ public class CompletableFutureDemo {
                 e.printStackTrace();
             }
             return "3";
-        });
-        // 同步动作
-        System.out.println("耗时：" + (System.currentTimeMillis() - s1));
+        }, ThreadPoolUtils.getThreadPoll());
+
         //同步动作执行完
-        future1.whenComplete((result, exception) -> System.out.println("当前线程名：{}" + Thread.currentThread().getName() + ",获取future1结果：" + result));
-        future2.whenComplete((result, exception) -> System.out.println("当前线程名：{}" + Thread.currentThread().getName() + ",获取future2结果：" + result));
-        future3.whenComplete((result, exception) -> System.out.println("当前线程名：{}" + Thread.currentThread().getName() + ",获取future3结果：" + result));
+        future1.whenComplete((result, exception) -> System.out.println("当前线程名：" + Thread.currentThread().getName() + ",获取future1结果：" + result + ",耗时：" + (System.currentTimeMillis() - s1) + "\n"));
+        future2.whenComplete((result, exception) -> System.out.println("当前线程名：" + Thread.currentThread().getName() + ",获取future2结果：" + result + ",耗时：" + (System.currentTimeMillis() - s1) + "\n"));
+        future3.whenComplete((result, exception) -> System.out.println("当前线程名：" + Thread.currentThread().getName() + ",获取future3结果：" + result + ",耗时：" + (System.currentTimeMillis() - s1) + "\n"));
+
+        System.exit(1);
     }
 
     /**

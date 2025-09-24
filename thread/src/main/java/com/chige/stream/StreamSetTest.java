@@ -1,6 +1,7 @@
 package com.chige.stream;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.*;
 

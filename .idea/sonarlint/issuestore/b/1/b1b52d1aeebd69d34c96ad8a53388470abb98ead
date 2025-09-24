@@ -1,0 +1,16 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¾ÂàÒùÿÿÿÿ8ŒßŞ«É1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(òßÿıøÿÿÿÿ8ßŞ«É1
+L	java:S106!"+Replace this use of System.out by a logger.(‹¥ñàùÿÿÿÿ8ßŞ«É1
+G	java:S106'"+Replace this use of System.out by a logger.(²•ûö8ğÚö«É1
+T
+java:S1854."7Remove this useless assignment to local variable "dog".(‹Â¶Ó8‡Š”¬É1
+x
+java:S4276-"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(’·¤¸ûÿÿÿÿ8‡Š”¬É1
+L	java:S106/"+Replace this use of System.out by a logger.(‹¥ñàùÿÿÿÿ8‡Š”¬É1
+X	java:S1254"<This block of commented-out lines of code should be removed.(‰õ®Â8ß¬É1
+S
+java:S1144$"6Remove this unused private "callMethodByClass" method.(®ç£õ8âÚ”¬É1
+M
+java:S1144*"0Remove this unused private "callMethod2" method.(ô¥ì8ˆŠ”¬É1

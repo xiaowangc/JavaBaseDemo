@@ -1,0 +1,14 @@
+
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ú‰ëµùÿÿÿÿ8¿è½‡3
+X	java:S125"<This block of commented-out lines of code should be removed.(íóŞ³8Àè½‡3
+R
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$8Áè½‡3
+Y
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ8Áè½‡3
+b
+java:S1128"ERemove this unused import 'com.lsy.baselib.crypto.util.ECServerUtil'.(ûŠãÁ8Áè½‡3
+w
+java:S1128"URemove this unused import 'sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType'.(Ú‰ëµùÿÿÿÿ8Áè½‡3
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8Áè½‡3

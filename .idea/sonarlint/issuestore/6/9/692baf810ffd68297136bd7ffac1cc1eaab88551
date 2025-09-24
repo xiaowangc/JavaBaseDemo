@@ -1,0 +1,27 @@
+
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ý“€Áýÿÿÿÿ
+t
+java:S2142("^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+@	java:S106&"+Replace this use of System.out by a logger.(Âé”ø
+U
+java:S2274'":Remove this call to "wait" or move it into a "while" loop.(üÏ»Œúÿÿÿÿ
+@	java:S106,"+Replace this use of System.out by a logger.(Û¡×’
+K
+java:S2446."0"notify" may not wake up the appropriate thread.(âÓ­ÿýÿÿÿÿ
+t
+java:S2142;"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+E	java:S1069"+Replace this use of System.out by a logger.(¹éÛ‰ûÿÿÿÿ
+P
+java:S2274:":Remove this call to "wait" or move it into a "while" loop.(äãÜÝ
+E	java:S106<"+Replace this use of System.out by a logger.(Õ¹ïªùÿÿÿÿ
+@	java:S106?"+Replace this use of System.out by a logger.(œÊÔè
+@	java:S106B"+Replace this use of System.out by a logger.(ìÈïÊ
+K
+java:S2446C"0"notify" may not wake up the appropriate thread.(£‚¥®ýÿÿÿÿ
+t
+java:S2142O"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+@	java:S106["+Replace this use of System.out by a logger.(Ë³Äþ
+@	java:S106b"+Replace this use of System.out by a logger.( Ü•À
+=
+java:S1068"'Remove this unused "num" private field.(¥Û¾º

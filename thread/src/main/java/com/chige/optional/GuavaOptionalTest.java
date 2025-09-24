@@ -1,8 +1,10 @@
 package com.chige.optional;
 
+import cn.hutool.json.JSONUtil;
 import com.google.common.base.Optional;
 import org.apache.commons.lang3.StringUtils;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
@@ -92,8 +94,10 @@ public class GuavaOptionalTest {
     }
 
     public static void main(String[] args) {
-        test3();
-
+//        test3();
+        BigDecimal mony1 = BigDecimal.valueOf(0.00);
+        BigDecimal mony2 = BigDecimal.valueOf(0.00);
+        System.out.println(mony1.compareTo(mony2) != 0);
     }
 
 

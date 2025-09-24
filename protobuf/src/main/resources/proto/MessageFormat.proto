@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package proto;
+
+option go_package="proto";
+option java_package="com.chige.protobuf.proto";
+
+option java_outer_classname="MessageFormat";
+
+/********************************************************************************
+*QOS2部分
+********************************************************************************/
+
+/**
+*普通消息格式
+*/
+message Message{
+	required string content = 1; //消息内容
+	required int64 send_time = 2; //消息发送时间
+	required string receiver_uid = 3; //接收人
+}

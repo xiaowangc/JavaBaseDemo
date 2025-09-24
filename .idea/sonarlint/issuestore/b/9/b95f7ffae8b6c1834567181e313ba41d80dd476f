@@ -1,0 +1,32 @@
+
+h
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(§‚Ç¥øÿÿÿÿ8ÓÉ…òş2
+|
+java:S1149e"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¾Î›Š8ÜÉ…òş2
+M
+java:S5542"+Use another cipher mode or disable padding.(ø¾¢çıÿÿÿÿ8İÉ…òş2
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(§‚Ç¥øÿÿÿÿ8İÉ…òş2
+X
+java:S6437 "6Revoke and change this password, as it is compromised.(áÅÏŒûÿÿÿÿ8¤Ü‹òş2
+D
+java:S3329!"'Use a dynamically-generated, random IV.(ÅÃä§8İÉ…òş2
+[
+java:S4719#"9Replace charset name argument with StandardCharsets.UTF_8(üÃ¶«şÿÿÿÿ8İÉ…òş2
+L	java:S106'"+Replace this use of System.out by a logger.(Ÿáàúüÿÿÿÿ8ŞÉ…òş2
+M
+java:S55428"+Use another cipher mode or disable padding.(ø¾¢çıÿÿÿÿ8ŞÉ…òş2
+S
+java:S64379"6Revoke and change this password, as it is compromised.(÷ğäõ8Õû‹òş2
+V
+java:S47199"9Replace charset name argument with StandardCharsets.UTF_8(÷ğäõ8ŞÉ…òş2
+[
+java:S4719:"9Replace charset name argument with StandardCharsets.UTF_8(æ„ÿíûÿÿÿÿ8ŞÉ…òş2
+G	java:S106G"+Replace this use of System.out by a logger.(¿æèë8‹é†òş2
+L	java:S106H"+Replace this use of System.out by a logger.(üÃãıÿÿÿÿ8˜œˆòş2
+G
+java:S1197T"*Move the array designators [] to the type.(æ¾ê²8ßÉ…òş2
+L
+java:S1197d"*Move the array designators [] to the type.(åõ±¥ûÿÿÿÿ8àÉ…òş2
+S
+java:S1128"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8àÉ…òş2

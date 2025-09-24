@@ -1,0 +1,22 @@
+
+t
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ÕÕÒ«ıÿÿÿÿ8ëâ‰«É1
+G	java:S106"+Replace this use of System.out by a logger.(îºÏá8ğâ‰«É1
+F	java:S106"+Replace this use of System.out by a logger.(¥Àk8òâ‰«É1
+G	java:S106"+Replace this use of System.out by a logger.(¸±µ8ôâ‰«É1
+G	java:S106"+Replace this use of System.out by a logger.(´†œÇ8öâ‰«É1
+L	java:S106"+Replace this use of System.out by a logger.(§ÕÍûøÿÿÿÿ8÷â‰«É1
+F	java:S106#"+Replace this use of System.out by a logger.(ÿ›Û	8ùâ‰«É1
+]	java:S125&"<This block of commented-out lines of code should be removed.(ŒÔ°”ÿÿÿÿÿ8ûâ‰«É1
+L	java:S1063"+Replace this use of System.out by a logger.(°è­‡üÿÿÿÿ8ÿâ‰«É1
+v
+java:S4276:"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(äÜê8ıâ‰«É1
+L	java:S106;"+Replace this use of System.out by a logger.(‰éÀ‘ÿÿÿÿÿ8ã‰«É1
+L	java:S106B"+Replace this use of System.out by a logger.(ÑÎòéşÿÿÿÿ8µã‰«É1
+s
+java:S4276K"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¸ƒ¼¢8„ã‰«É1
+L	java:S106L"+Replace this use of System.out by a logger.(ã†ÿ˜şÿÿÿÿ8µã‰«É1
+G	java:S106Y"+Replace this use of System.out by a logger.(‹÷Øù8ù÷‰«É1
+L	java:S106b"+Replace this use of System.out by a logger.(†•Àíúÿÿÿÿ8ı‹«É1
+G	java:S106f"+Replace this use of System.out by a logger.( ¹„ô8ãŒ”«É1
+X	java:S125l"<This block of commented-out lines of code should be removed.(õŞùË8ù÷‰«É1

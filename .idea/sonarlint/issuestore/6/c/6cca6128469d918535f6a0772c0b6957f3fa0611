@@ -1,0 +1,8 @@
+
+K
+java:S1854$"5Remove this useless assignment to local variable "p".(¦אÚ 
+<
+java:S1481$"&Remove this unused "p" local variable.(¦אÚ 
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ב±Çהûÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(ב±Çהûÿÿÿÿ
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(ב±Çהûÿÿÿÿ

@@ -1,0 +1,15 @@
+
+i
+java:S1192;"NDefine a constant instead of duplicating this literal ",çŠ¶æ€ä¸ºï¼š" 3 times.(×â§şıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÒÏ¿ñ
+P
+java:S1161'":Add the "@Override" annotation above this method signature(“–ış
+@	java:S106("+Replace this use of System.out by a logger.(ùœØ«
+t
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+@	java:S1063"+Replace this use of System.out by a logger.(«®êà
+E	java:S106;"+Replace this use of System.out by a logger.(×â§şıÿÿÿÿ
+?	java:S106="+Replace this use of System.out by a logger.(£´¶.
+E	java:S106?"+Replace this use of System.out by a logger.(ø‚Ò÷ÿÿÿÿÿ
+?
+java:S3398")Move this method into "StatusDemoThread".(Æ„‰Ñ

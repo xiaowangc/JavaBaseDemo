@@ -1,0 +1,35 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â›Ì”Ü2
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8õĞÑ”Ü2
+g	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Õ½Ú”Ü2
+g	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8«øÚ”Ü2
+Q
+java:S3740"/Provide the parametrized type for this generic.(‡§°úÿÿÿÿ8Â›Ì”Ü2
+N
+java:S1135"2Complete the task associated to this TODO comment.(£°§\8Å›Ì”Ü2
+\
+java:S18547"?Remove this useless assignment to local variable "threadLocal".(ı‰¯­8Úï¿—Ü2
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Û½Ú”Ü2
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8±øÚ”Ü2
+{
+java:S21423"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8Ç›Ì”Ü2
+{
+java:S2142."^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ûĞÑ”Ü2
+F	java:S1062"+Replace this use of System.out by a logger.(èÎ—x8ÇŠØ”Ü2
+M
+java:S14817"0Remove this unused "threadLocal" local variable.(ı‰¯­8Şï¿—Ü2
+L	java:S106:"+Replace this use of System.out by a logger.(Ğì¶øÿÿÿÿ8Ùêå”Ü2
+V
+java:S3400R"9Remove this method and declare a constant for this value.(ä…ûî8È›Ì”Ü2
+N
+java:S1172Q",Remove this unused method parameter "param".(•ù¶İüÿÿÿÿ8È›Ì”Ü2
+V
+java:S3400U"9Remove this method and declare a constant for this value.(ä…ûî8È›Ì”Ü2
+N
+java:S1172T",Remove this unused method parameter "param".(»õùÿÿÿÿ8È›Ì”Ü2
+M
+java:S1144Q"+Remove this unused private "apiOne" method.(•ù¶İüÿÿÿÿ8È›Ì”Ü2
+M
+java:S1144T"+Remove this unused private "apiTwo" method.(»õùÿÿÿÿ8È›Ì”Ü2

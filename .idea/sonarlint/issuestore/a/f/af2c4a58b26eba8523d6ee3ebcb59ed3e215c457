@@ -1,0 +1,14 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å™–Öê2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀªÜ»ýÿÿÿÿ8Å™–Öê2
+]
+java:S2222";Unlock this lock along all executions paths of this method.(à°™îÿÿÿÿÿ8Œ„˜Öê2
+W
+java:S1854"5Remove this useless assignment to local variable "b".(à°™îÿÿÿÿÿ8Ê™–Öê2
+H
+java:S1481"&Remove this unused "b" local variable.(à°™îÿÿÿÿÿ8Ê™–Öê2
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öþÿÿÿÿ8Ë™–Öê2
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öþÿÿÿÿ8Ë™–Öê2
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ì™–Öê2
+G	java:S106%"+Replace this use of System.out by a logger.(‘»Úâ8Ì™–Öê2

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaBaseDemo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaBaseDemo_jar</output-path>
+    <root id="archive" name="JavaBaseDemo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/bcmail-jdk14-145.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/CNCBCryptoPkg.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/bcprov-jdk14-145.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/cryppkg-1.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

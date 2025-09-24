@@ -1,0 +1,130 @@
+
+h	java:S112Î"FDefine and throw a dedicated exception instead of using a generic one.(åÕ‹òùÿÿÿÿ8ˆÄÜÒé2
+Q
+java:S3740"/Provide the parametrized type for this generic.(§§±íøÿÿÿÿ8‰ÄÜÒé2
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ù÷†şÿÿÿÿ8‰ÄÜÒé2
+Q
+java:S3740"/Provide the parametrized type for this generic.(ı­›Ğøÿÿÿÿ8‰ÄÜÒé2
+L
+java:S3740""/Provide the parametrized type for this generic.(Çö€’8‰ÄÜÒé2
+L
+java:S3740#"/Provide the parametrized type for this generic.(Ïú°’8‰ÄÜÒé2
+L
+java:S3740$"/Provide the parametrized type for this generic.(Á–·Ş8‰ÄÜÒé2
+Q
+java:S3740&"/Provide the parametrized type for this generic.(ÿÓèŒÿÿÿÿÿ8‰ÄÜÒé2
+L
+java:S3740)"/Provide the parametrized type for this generic.(ÓËš8‰ÄÜÒé2
+L
+java:S3740-"/Provide the parametrized type for this generic.(õ×Üõ8‰ÄÜÒé2
+R
+java:S3740­"/Provide the parametrized type for this generic.(ÃÚëùşÿÿÿÿ8‰ÄÜÒé2
+r
+java:S1192r"PDefine a constant instead of duplicating this literal "å¼€å§‹æ‰§è¡Œï¼š" 3 times.(÷áÏøÿÿÿÿ8ŠÄÜÒé2
+r
+java:S1192r"PDefine a constant instead of duplicating this literal "å½“å‰çº¿ç¨‹ï¼š" 4 times.(÷áÏøÿÿÿÿ8ŠÄÜÒé2
+u
+java:S1192b"SDefine a constant instead of duplicating this literal "å½“å‰çº¿ç¨‹åï¼š" 3 times.(È…°×üÿÿÿÿ8ŠÄÜÒé2
+v
+java:S1192®"SDefine a constant instead of duplicating this literal "å½“å‰çº¿ç¨‹ä¸ºï¼š" 6 times.(ïòöşÿÿÿÿ8ŠÄÜÒé2
+q
+java:S1192Ò"SDefine a constant instead of duplicating this literal "ï¼Œå¼‚å¸¸ä¿¡æ¯ä¸º" 4 times.(ß´œ˜8ŠÄÜÒé2
+~
+java:S1192¥"`Define a constant instead of duplicating this literal "åˆ›å»ºä»»åŠ¡,å½“å‰çº¿ç¨‹ä¸ºï¼š" 3 times.(Ñƒåæ8ŠÄÜÒé2
+F	java:S106"+Replace this use of System.out by a logger.(ê£Ó8šÄÜÒé2
+L	java:S106"+Replace this use of System.out by a logger.(¥ş½şÿÿÿÿ8šÄÜÒé2
+L	java:S106"+Replace this use of System.out by a logger.(¤Ëù²ÿÿÿÿÿ8šÄÜÒé2
+L	java:S106'"+Replace this use of System.out by a logger.(Èº¾ıÿÿÿÿ8›ÄÜÒé2
+L	java:S106*"+Replace this use of System.out by a logger.(úÄÛ»úÿÿÿÿ8›ÄÜÒé2
+L	java:S106."+Replace this use of System.out by a logger.(Ò—é‰üÿÿÿÿ8œÄÜÒé2
+
+java:S11303"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(¯õ¬8œÄÜÒé2
+”
+java:S11303"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(¯õ¬8œÄÜÒé2
+‰
+java:S11303"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯õ¬8œÄÜÒé2
+]	java:S1254"<This block of commented-out lines of code should be removed.(áİ˜ïüÿÿÿÿ8ÄÜÒé2
+]	java:S1256"<This block of commented-out lines of code should be removed.(†í¸Äÿÿÿÿÿ8ÄÜÒé2
+{
+java:S2142E"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÄÜÒé2
+F	java:S106D"+Replace this use of System.out by a logger.(ê£Ó8ÄÜÒé2
+{
+java:S2142P"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÄÜÒé2
+L	java:S106O"+Replace this use of System.out by a logger.(¥ş½şÿÿÿÿ8ÄÜÒé2
+{
+java:S2142["^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÄÜÒé2
+L	java:S106Z"+Replace this use of System.out by a logger.(İÌñÍûÿÿÿÿ8ŸÄÜÒé2
+L	java:S106b"+Replace this use of System.out by a logger.(È…°×üÿÿÿÿ8ŸÄÜÒé2
+L	java:S106c"+Replace this use of System.out by a logger.(ê£ı®ùÿÿÿÿ8ŸÄÜÒé2
+L	java:S106d"+Replace this use of System.out by a logger.(í„ÑÚúÿÿÿÿ8 ÄÜÒé2
+j	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğá¸¯8 ÄÜÒé2
+L	java:S106r"+Replace this use of System.out by a logger.(÷áÏøÿÿÿÿ8¡ÄÜÒé2
+{
+java:S2142u"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¡ÄÜÒé2
+G	java:S106x"+Replace this use of System.out by a logger.(­õ£¸8¡ÄÜÒé2
+F	java:S106|"+Replace this use of System.out by a logger.(¡¡r8¡ÄÜÒé2
+L	java:S106~"+Replace this use of System.out by a logger.(¿Şë¥ÿÿÿÿÿ8¢ÄÜÒé2
+H	java:S106ƒ"+Replace this use of System.out by a logger.(§åÜ8¢ÄÜÒé2
+H	java:S106…"+Replace this use of System.out by a logger.(ŞšÛÂ8¢ÄÜÒé2
+H
+java:S1181‰"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8¢ÄÜÒé2
+
+java:S2142‰"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(‡˜ÚÚøÿÿÿÿ8¢ÄÜÒé2
+H	java:S106ˆ"+Replace this use of System.out by a logger.(£…´ù8¢ÄÜÒé2
+H	java:S106Š"+Replace this use of System.out by a logger.(ı±É¸8¢ÄÜÒé2
+M	java:S106"+Replace this use of System.out by a logger.(÷áÏøÿÿÿÿ8¢ÄÜÒé2
+|
+java:S2142’"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8£ÄÜÒé2
+H	java:S106•"+Replace this use of System.out by a logger.(­õ£¸8£ÄÜÒé2
+p	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş İ¯úÿÿÿÿ8£ÄÜÒé2
+H	java:S106¥"+Replace this use of System.out by a logger.(Ñƒåæ8¥ÄÜÒé2
+|
+java:S2142¨"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¥ÄÜÒé2
+M	java:S106®"+Replace this use of System.out by a logger.(ïòöşÿÿÿÿ8¥ÄÜÒé2
+H	java:S106±"+Replace this use of System.out by a logger.(æíú½8¥ÄÜÒé2
+H	java:S106²"+Replace this use of System.out by a logger.(°ÿ½8¦ÄÜÒé2
+M	java:S106³"+Replace this use of System.out by a logger.(™Óúüÿÿÿÿ8¦ÄÜÒé2
+H	java:S106¶"+Replace this use of System.out by a logger.(Æ²Ø8¦ÄÜÒé2
+M	java:S106¹"+Replace this use of System.out by a logger.(‚ íÙüÿÿÿÿ8¦ÄÜÒé2
+H	java:S106Ç"+Replace this use of System.out by a logger.(Ñƒåæ8§ÄÜÒé2
+|
+java:S2142Ê"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8§ÄÜÒé2
+J
+java:S1602Ñ",Remove useless curly braces around statement(ÛÒÏÃ8¨ÄÜÒé2
+H	java:S106Ò"+Replace this use of System.out by a logger.(ß´œ˜8¨ÄÜÒé2
+H	java:S106Ö"+Replace this use of System.out by a logger.(Ñƒåæ8¨ÄÜÒé2
+|
+java:S2142Ù"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¨ÄÜÒé2
+H	java:S106à"+Replace this use of System.out by a logger.(Áµˆâ8©ÄÜÒé2
+H	java:S106â"+Replace this use of System.out by a logger.(ç¦Ğ¬8©ÄÜÒé2
+O
+java:S1602ä",Remove useless curly braces around statement(ºğÈÂÿÿÿÿÿ8©ÄÜÒé2
+H	java:S106å"+Replace this use of System.out by a logger.(ß´œ˜8©ÄÜÒé2
+O
+java:S1602è",Remove useless curly braces around statement(–ë§ùÿÿÿÿ8©ÄÜÒé2
+H	java:S106é"+Replace this use of System.out by a logger.(ß´œ˜8©ÄÜÒé2
+H	java:S106ì"+Replace this use of System.out by a logger.(ùƒÁ«8ªÄÜÒé2
+M	java:S106í"+Replace this use of System.out by a logger.(…ÑÆ¯ùÿÿÿÿ8ªÄÜÒé2
+O
+java:S1602ğ",Remove useless curly braces around statement(Õ¬ÿœıÿÿÿÿ8ªÄÜÒé2
+H	java:S106ñ"+Replace this use of System.out by a logger.(ôŒë8ªÄÜÒé2
+M	java:S106ô"+Replace this use of System.out by a logger.(÷¿ëüûÿÿÿÿ8ªÄÜÒé2
+G	java:S106ø"+Replace this use of System.out by a logger.(æ¥ö*8«ÄÜÒé2
+M	java:S106ü"+Replace this use of System.out by a logger.(Øªøÿÿÿÿ8«ÄÜÒé2
+|
+java:S2142…"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8«ÄÜÒé2
+|
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8«ÄÜÒé2
+|
+java:S2142—"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¬ÄÜÒé2
+M	java:S106 "+Replace this use of System.out by a logger.(×»êªùÿÿÿÿ8¬ÄÜÒé2
+H	java:S106¡"+Replace this use of System.out by a logger.(Èö•”8¬ÄÜÒé2
+|
+java:S2142«"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8­ÄÜÒé2
+|
+java:S2142³"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8­ÄÜÒé2
+|
+java:S2142»"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8­ÄÜÒé2
+M	java:S106Á"+Replace this use of System.out by a logger.(äüÑüÿÿÿÿ8­ÄÜÒé2
+H	java:S106Â"+Replace this use of System.out by a logger.(Èö•”8®ÄÜÒé2

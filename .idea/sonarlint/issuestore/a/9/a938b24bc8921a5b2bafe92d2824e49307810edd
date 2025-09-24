@@ -1,0 +1,72 @@
+
+«
+java:S4449"ˆAnnotate the parameter with @javax.annotation.Nullable in method 'of' declaration, or make sure that null can not be passed as argument.(¡Úş»şÿÿÿÿ8ÉğˆÆ1
+d
+java:S1854&"BRemove this useless assignment to local variable "objectOptional".(ÜŠüşÿÿÿÿ8 ÉğˆÆ1
+W
+java:S1854 ":Remove this useless assignment to local variable "absent".(ÁÖïÖ8 ÉğˆÆ1
+X
+java:S1854"6Remove this useless assignment to local variable "o2".(¡Úş»şÿÿÿÿ8 ÉğˆÆ1
+C
+java:S4738"!Use "java.util.Optional" instead.(ÉúÛ—üÿÿÿÿ8 ÉğˆÆ1
+F
+java:S4738"$Use "java.util.Optional.of" instead.(ÉúÛ—üÿÿÿÿ8 ÉğˆÆ1
+F	java:S106"+Replace this use of System.out by a logger.(è¦¸j8 ÉğˆÆ1
+L	java:S106"+Replace this use of System.out by a logger.(¾¼­®úÿÿÿÿ8¡ÉğˆÆ1
+C
+java:S4738"!Use "java.util.Optional" instead.(¡Úş»şÿÿÿÿ8¡ÉğˆÆ1
+F
+java:S4738"$Use "java.util.Optional.of" instead.(¡Úş»şÿÿÿÿ8¡ÉğˆÆ1
+I
+java:S1481"'Remove this unused "o2" local variable.(¡Úş»şÿÿÿÿ8¡ÉğˆÆ1
+>
+java:S4738 "!Use "java.util.Optional" instead.(ÁÖïÖ8¡ÉğˆÆ1
+D
+java:S4738 "'Use "java.util.Optional.empty" instead.(ÁÖïÖ8¡ÉğˆÆ1
+H
+java:S1481 "+Remove this unused "absent" local variable.(ÁÖïÖ8¡ÉğˆÆ1
+C
+java:S4738&"!Use "java.util.Optional" instead.(ÜŠüşÿÿÿÿ8¡ÉğˆÆ1
+N
+java:S4738&",Use "java.util.Optional.ofNullable" instead.(ÜŠüşÿÿÿÿ8¡ÉğˆÆ1
+U
+java:S1481&"3Remove this unused "objectOptional" local variable.(ÜŠüşÿÿÿÿ8¡ÉğˆÆ1
+C
+java:S47380"!Use "java.util.Optional" instead.(‡Ä˜åûÿÿÿÿ8¢ÉğˆÆ1
+F
+java:S47380"$Use "java.util.Optional.of" instead.(‡Ä˜åûÿÿÿÿ8¢ÉğˆÆ1
+C
+java:S47381"!Use "java.util.Optional" instead.(Ïë¯Ïøÿÿÿÿ8¢ÉğˆÆ1
+N
+java:S47381",Use "java.util.Optional.ofNullable" instead.(Ïë¯Ïøÿÿÿÿ8¢ÉğˆÆ1
+>
+java:S47382"!Use "java.util.Optional" instead.(ìº¥8¢ÉğˆÆ1
+D
+java:S47382"'Use "java.util.Optional.empty" instead.(ìº¥8¢ÉğˆÆ1
+=
+java:S47383"!Use "java.util.Optional" instead.(ğ‹í28¢ÉğˆÆ1
+@
+java:S47383"$Use "java.util.Optional.of" instead.(ğ‹í28¢ÉğˆÆ1
+L	java:S1064"+Replace this use of System.out by a logger.(—ÎÃÖûÿÿÿÿ8¢ÉğˆÆ1
+L	java:S1065"+Replace this use of System.out by a logger.(ºÅÇùÿÿÿÿ8¢ÉğˆÆ1
+F	java:S1066"+Replace this use of System.out by a logger.(ÜşÔN8¢ÉğˆÆ1
+L	java:S106;"+Replace this use of System.out by a logger.(ÿßÓ´ıÿÿÿÿ8¢ÉğˆÆ1
+L	java:S106B"+Replace this use of System.out by a logger.(™ƒ•µùÿÿÿÿ8£ÉğˆÆ1
+G	java:S106C"+Replace this use of System.out by a logger.(Ş¼¡Æ8£ÉğˆÆ1
+L	java:S106D"+Replace this use of System.out by a logger.(¤²õşÿÿÿÿ8£ÉğˆÆ1
+L	java:S106I"+Replace this use of System.out by a logger.(“ğÇÎşÿÿÿÿ8£ÉğˆÆ1
+L	java:S106J"+Replace this use of System.out by a logger.(œÚæ¦úÿÿÿÿ8£ÉğˆÆ1
+L	java:S106K"+Replace this use of System.out by a logger.(„Ë„ßıÿÿÿÿ8£ÉğˆÆ1
+G	java:S106S"+Replace this use of System.out by a logger.(Î’ÛÚ8¤ÉğˆÆ1
+F	java:S106T"+Replace this use of System.out by a logger.(œ™À8¤ÉğˆÆ1
+G	java:S106U"+Replace this use of System.out by a logger.(ëë¢Ø8¤ÉğˆÆ1
+L	java:S106W"+Replace this use of System.out by a logger.(¤‰‰ûÿÿÿÿ8¤ÉğˆÆ1
+I
+java:S4738\",Use "java.util.Optional.ofNullable" instead.(È’ÿ8¥ÉğˆÆ1
+G	java:S106]"+Replace this use of System.out by a logger.(ğ’ª8¥ÉğˆÆ1
+]	java:S125a"<This block of commented-out lines of code should be removed.(ÉÊ½Ñøÿÿÿÿ8¥ÉğˆÆ1
+L	java:S106d"+Replace this use of System.out by a logger.(Õ¤²çùÿÿÿÿ8¯ÈóˆÆ1
+Q
+java:S1128"4Remove this unused import 'cn.hutool.json.JSONUtil'.( «ı¢8š”òˆÆ1
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8š”òˆÆ1

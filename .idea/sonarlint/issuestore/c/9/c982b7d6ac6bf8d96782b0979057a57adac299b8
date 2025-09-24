@@ -1,0 +1,16 @@
+
+V
+java:S1854""9Remove this useless assignment to local variable "test2".(»Ì—æ8¡ûí°¡1
+“
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78¡ûí°¡1
+X	java:S125"<This block of commented-out lines of code should be removed.(¦À”Á8¢ûí°¡1
+G
+java:S1481""*Remove this unused "test2" local variable.(»Ì—æ8£ûí°¡1
+L	java:S106/"+Replace this use of System.out by a logger.(Í¼À§ýÿÿÿÿ8Œ«Óµ¡1
+S
+java:S1128"7Remove this unused import 'cn.hutool.core.util.IdUtil'.(—£š	8Ž‡Óµ¡1
+W
+java:S1128":Remove this unused import 'cn.hutool.core.util.PhoneUtil'.(´®Â8Ž‡Óµ¡1
+W
+java:S1128
+":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8Ž‡Óµ¡1

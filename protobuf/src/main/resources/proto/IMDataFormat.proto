@@ -1,0 +1,150 @@
+syntax = "proto2";
+
+option java_package = "com.chige.protobuf.proto";
+
+option java_outer_classname = "IMDataFormatProto";
+
+import "MsgType.proto";
+
+/********************
+*公共类
+********************/
+
+// 联合账号ID结构
+message ProductUid {
+  required string uid = 1; //accountUserId
+  required int32 pid = 2; //产品号
+}
+
+message Msg{
+  required MsgType msg_type = 1;//消息类型
+  required int32 seq_id = 2; //请求序列号
+  required int32 protocol_version = 3; //协议版本（版本按报文来判断不按连接来判断，后续每个请求都要携带）
+
+  // 请求和应答载荷作为一个联合体，同一时间只有一个被实例化
+  optional int32 business_type = 4;
+  optional RequestData request = 5;
+  optional ResponseData response = 6;
+}
+
+
+message PTPMsg{
+  required string content = 1; //消息内容
+  required int64 send_time = 2; //消息发送时间
+  required string receiver_uid = 3; //接收人
+  required string sender_uid = 4; //发送人
+  optional string member_id = 5; //家庭成员编号
+  required string message_id = 6; //客户端消息全局编号
+  optional string guid = 7; //服务端消息全局编号
+  optional string session_id = 8; //会话编号
+  required int64 business_type = 9; //业务类型
+  optional int32 receiver_pid = 10; //接收方产品号
+  optional int32 sender_pid = 11; //发送方产品号
+  optional int64 received_time = 12; // 服务端接收消息的时间
+  optional OrderInfo order_info = 13; //订单信息
+}
+
+message OrderInfo{
+  optional string order_id = 1;
+  optional int32 order_type = 2;
+}
+
+message GroupChatMsg{
+  required string content = 1; //消息内容
+  required int64 send_time = 2; //消息发送时间
+  required string group_id = 3; //群组号
+  required string sender_uid = 4; //发送人
+  required string message_id = 5; //客户端消息全局编号
+  optional int64 guid = 6; //服务端消息全局编号
+  required int32 business_type = 7; //业务类型
+  optional int64 received_time = 8; // 服务端接收消息的时间
+  optional int32 sender_pid = 9; //发送方产品号
+  repeated ProductUid at_uid = 10; //被@人列表
+  optional GroupChatMsg msg_being_replied = 11; //如果是“回复消息”则填被回复的那条消息否则为空
+}
+
+message TransparentPushMsg{
+  optional int32 transparent_push_msg_type = 1; //透传消息类型 1正常消息 2断线重拉消息
+  optional string content = 2; //消息内容 json
+}
+
+
+
+// 请求公共载荷的联合体，一种消息只能实例化一个payload。可以是c端发起也可以是s端发起
+message RequestData {
+  optional SendGroupChatReq send_group_chat_req = 1;
+  optional ForwardGroupChatReq forward_group_chat_req = 2;
+  optional AlreadyReadReq already_read_req = 3;
+
+  optional SendPTPChatReq send_ptp_chat_req = 4;
+  optional ForwardPTPChatReq forward_ptp_chat_req = 5;
+  optional OpReq op_req = 6;
+  optional SendTransparentPushMsgReq send_transparent_push_msg_req = 7;
+
+}
+
+// 应答公共载荷的联合体，一种消息只能实例化一个payload。可以是c端发起也可以是s端发起
+message ResponseData {
+  required string msg = 1; //请求结果描述字符串
+  required int32 status = 2; //请求结果响应码，0=成功
+
+  optional SendGroupChatRsp send_group_chat_rsp = 3;
+  optional ForwardGroupChatRsp forward_group_chat_rsp = 4;
+
+  optional SendPTPChatRsp send_ptp_chat_rsp = 5;
+  optional ForwardPTPChatRsp forward_ptp_chat_rsp = 6;
+}
+
+/********************
+*消息体
+********************/
+message SendGroupChatReq{
+  required GroupChatMsg msg = 1;
+}
+
+message SendGroupChatRsp{
+  required int64 guid = 1; //服务端生成的全局消息ID
+  required string message_id = 2;
+  optional int64 time = 3;  // 服务端接收到消息的时间
+}
+
+message ForwardGroupChatReq{
+  required GroupChatMsg msg = 1;
+}
+
+message ForwardGroupChatRsp{
+  required string message_id = 1;
+}
+
+message AlreadyReadReq {
+  required int32 session_type = 1; // 会话类型 1=单聊（暂无使用） 2=群聊
+  optional string session_id = 2; // 会话ID
+  required int64 guid = 3; // 服务端生成的全局消息ID
+  optional OrderInfo order_info = 4; //订单信息
+}
+
+message OpReq {
+  optional int32 op_typ = 1; // 操作类型 1=拉取安卓离线透传消息
+}
+
+
+message SendPTPChatReq{
+  required PTPMsg msg = 1;
+}
+
+message SendPTPChatRsp{
+  required int64 guid = 1; //服务端生成的全局消息ID
+  required string message_id = 2;
+  optional int64 time = 3;  // 服务端接收到消息的时间
+}
+
+message ForwardPTPChatReq{
+  required PTPMsg msg = 1;
+}
+
+message ForwardPTPChatRsp{
+}
+
+message SendTransparentPushMsgReq{
+  optional TransparentPushMsg transparent_push_msg = 1;
+}

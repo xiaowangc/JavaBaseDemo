@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/protobuf/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="protobuf" />
         <module name="cache" />
+        <module name="reflection" />
+        <module name="test" />
+        <module name="effective-java" />
+        <module name="generator" />
+        <module name="thread" />
+        <module name="security" />
         <module name="spi-demo" />
         <module name="framework" />
-        <module name="reflection" />
         <module name="util" />
         <module name="common" />
-        <module name="effective-java" />
-        <module name="thread" />
+        <module name="function" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="base" target="8" />
-      <module name="cache" target="8" />
-      <module name="common" target="8" />
-      <module name="effective-java" target="8" />
-      <module name="framework" target="8" />
-      <module name="reflection" target="8" />
-      <module name="spi-demo" target="1.8" />
-      <module name="thread" target="8" />
-      <module name="util" target="8" />
       <module name="utils" target="8" />
     </bytecodeTargetLevel>
   </component>

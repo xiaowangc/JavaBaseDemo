@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ş¼¼øûÿÿÿÿ8‰„æÅÅ2
+X
+java:S1128";Remove this unused import 'java.util.concurrent.Semaphore'.(î¸Îú8É»´Ò2
+J
+java:S1144"-Remove this unused private "getCount" method.(÷ïúú8„æÅÅ2
+P
+java:S1144'".Remove this unused private "increment" method.(Í¥Úõøÿÿÿÿ8„æÅÅ2

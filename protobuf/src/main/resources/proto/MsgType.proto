@@ -1,0 +1,68 @@
+syntax = "proto2";
+
+option java_package="com.chige.protobuf.proto";
+
+option java_outer_classname="MsgTypeProto";
+
+/**
+ * 消息类型
+ */
+enum MsgType {
+
+    // c发送群聊消息请求到s
+    // c->s
+    SEND_GROUP_CHAT_REQ = 1;
+
+    // SendGroupChatReq的应答
+    // s->c
+    SEND_GROUP_CHAT_RSP = 2;
+
+    // s转发群聊消息给c
+    // s->c
+    FORWARD_GROUP_CHAT_REQ = 3;
+
+    // ForwardGroupChatReq的应答
+    // c->s
+    FORWARD_GROUP_CHAT_RSP = 4;
+
+    // c发送消息已读请求到s
+    // c->s
+    ALREADY_READ_REQ = 5;
+
+
+    // c发送单聊消息请求到s
+    // c->s
+    SEND_PTP_CHAT_REQ = 111;
+
+    // SendPTPChatReq的应答
+    // s->c
+    SEND_PTP_CHAT_RSP = 112;
+
+    // s转发单聊消息给c
+    // s->c
+    FORWARD_PTP_CHAT_REQ = 113;
+
+    // ForwardPTPChatReq的应答
+    // c->s
+    FORWARD_PTP_CHAT_RSP = 114;
+
+    // OpReq 控制报文请求
+    //c->s
+    SEND_OP_REQ = 601;
+
+    // OpReq 控制报文应答
+    //s->c
+    SEND_OP_RSP = 602;
+
+    // TransparentPushMsg 透传消息的请求
+    //s->c
+    SEND_TRANSPARENT_PUSH_MSG_REQ = 701;
+
+    // TransparentPushMsg 透传消息的应答
+    //s->c
+    SEND_TRANSPARENT_PUSH_MSG_RSP =702;
+
+    //未知
+    NOTHING = 1000;
+
+}

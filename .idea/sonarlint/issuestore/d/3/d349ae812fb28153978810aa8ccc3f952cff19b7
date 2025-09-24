@@ -1,0 +1,10 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷øÈ„Õ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ˆš¯ÿÿÿÿÿ8øøÈ„Õ2
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ûøÈ„Õ2
+N
+java:S1135"2Complete the task associated to this TODO comment.(£°§\8üøÈ„Õ2
+L	java:S106"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ8üøÈ„Õ2
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ıøÈ„Õ2

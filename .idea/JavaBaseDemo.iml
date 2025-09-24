@@ -11,5 +11,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="cryppkg-1.12" level="project" />
+    <orderEntry type="library" name="bcmail-jdk14-145" level="project" />
+    <orderEntry type="library" name="bcprov-jdk14-145" level="project" />
+    <orderEntry type="library" name="CNCBCryptoPkg" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="3e0706dc-2e5d-4f8b-9126-534995a9403e" />
   </component>
 </module>

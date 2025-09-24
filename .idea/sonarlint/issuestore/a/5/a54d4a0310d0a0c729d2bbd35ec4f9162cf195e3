@@ -1,0 +1,7 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ξ«Ν΄8ΰ†σο½2
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬μ”)8ί²το½2
+O
+java:S1135"2Complete the task associated to this TODO comment.(ί¥›μ8δ†σο½2
+N
+java:S1144"2Remove this unused private "test_InitDemo" method.(¬μ”)8ΰ²το½2

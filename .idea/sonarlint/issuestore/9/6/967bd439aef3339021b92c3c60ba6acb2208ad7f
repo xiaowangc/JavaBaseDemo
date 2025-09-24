@@ -1,0 +1,31 @@
+
+h
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(½ÿ‚£ÿÿÿÿÿ8ü¼Ï®Â2
+N
+java:S1135"2Complete the task associated to this TODO comment.(£°§\8„½Ï®Â2
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ñìğ‹üÿÿÿÿ8†½Ï®Â2
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ä×í˜şÿÿÿÿ8†½Ï®Â2
+F	java:S106""+Replace this use of System.out by a logger.(ÍÀ8†½Ï®Â2
+G	java:S106$"+Replace this use of System.out by a logger.(íÃËÚ8†½Ï®Â2
+G
+java:S1481&"*Remove this unused "count" local variable.(æÕ¿¼8‡½Ï®Â2
+F	java:S106-"+Replace this use of System.out by a logger.(¸’	8‡½Ï®Â2
+i	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘§íA8ˆ½Ï®Â2
+^
+java:S10759"ARefactor your code to get this URI from a customizable parameter.(€­•ë8ˆ½Ï®Â2
+F	java:S106>"+Replace this use of System.out by a logger.(ÍÀ8ˆ½Ï®Â2
+G	java:S106@"+Replace this use of System.out by a logger.(íÃËÚ8ˆ½Ï®Â2
+G
+java:S1481B"*Remove this unused "count" local variable.(æÕ¿¼8ˆ½Ï®Â2
+J
+java:S1481C"(Remove this unused "num" local variable.(†¬›Äûÿÿÿÿ8ºóâ®Â2
+^
+java:S1075L"ARefactor your code to get this URI from a customizable parameter.(›‹ô°8ÙŸã®Â2
+e
+java:S1128"HRemove this unused import 'java.util.concurrent.atomic.AtomicReference'.(×‡µó8ãøÓ®Â2
+l
+java:S1128	"ORemove this unused import 'java.util.concurrent.atomic.AtomicStampedReference'.(šŒŸ±8ãøÓ®Â2
+J
+java:S1144"-Remove this unused private "readFile" method.(Æ˜äê8øŒÔ®Â2

@@ -1,0 +1,24 @@
+
+E
+java:S2093)"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+\
+java:S3457x"AFormat specifiers should be used instead of string concatenation.(Ùş Êùÿÿÿÿ
+‰
+java:S1130~"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ˆĞãÇù0
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ò‚––şÿÿÿÿ
+T	java:S106‰"9Replace this use of System.out or System.err by a logger.(ÇŠÊÁıÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(½õ”¶
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(£ñ‰´üÿÿÿÿ
+q
+java:S1128"TRemove this unused import 'com.sun.org.apache.xml.internal.serialize.XMLSerializer'.(æ¿”8‹ĞãÇù0
+h
+java:S1128"KRemove this unused import 'com.sun.xml.internal.txw2.output.XmlSerializer'.(ñ‹·8‹ĞãÇù0
+R
+java:S2629x"7Use the built-in formatting to construct this argument.(Ùş Êùÿÿÿÿ
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(æ¿”
+Y
+java:S2259‘"BA "NullPointerException" could be thrown; "car1" is nullable here.(½õ”¶
+I
+java:S2755h"3Disable access to external entities in XML parsing.(‡¨ßº

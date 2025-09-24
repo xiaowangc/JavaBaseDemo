@@ -1,0 +1,10 @@
+
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¥¾•íÈ2
+L	java:S106"+Replace this use of System.out by a logger.(öÀêÖúÿÿÿÿ8¦¾•íÈ2
+“
+java:S1130."wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78§¾•íÈ2
+X	java:S125/"<This block of commented-out lines of code should be removed.(ş‰à8¨¾•íÈ2
+G	java:S1069"+Replace this use of System.out by a logger.(ü„–¾8¨¾•íÈ2
+I
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8¨¾•íÈ2

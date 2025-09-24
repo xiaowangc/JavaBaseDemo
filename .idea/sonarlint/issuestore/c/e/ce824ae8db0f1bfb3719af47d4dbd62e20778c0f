@@ -1,0 +1,10 @@
+
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÖÒî¥¼2
+G	java:S106"+Replace this use of System.out by a logger.(¼Â÷ï8ÔÒî¥¼2
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¢›ü8ÓÒî¥¼2
+N
+java:S1602",Remove useless curly braces around statement(ñ˜²àùÿÿÿÿ8ÔÒî¥¼2
+G	java:S106"+Replace this use of System.out by a logger.(£ÆÏÁ8ÔÒî¥¼2
+L	java:S106"+Replace this use of System.out by a logger.(®ßüÿÿÿÿ8ÕÒî¥¼2
+L	java:S106"+Replace this use of System.out by a logger.(Æì° úÿÿÿÿ8ÕÒî¥¼2

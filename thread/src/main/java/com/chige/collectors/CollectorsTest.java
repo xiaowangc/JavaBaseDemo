@@ -1,9 +1,9 @@
 package com.chige.collectors;
 
+import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -25,14 +25,7 @@ public class CollectorsTest {
     }
 
     public static void main(String[] args) {
-        String s1 = "";
-        String s2 = null;
-        String s3 = " ";
-        System.out.println(StringUtils.isBlank(s1));
-        System.out.println(StringUtils.isEmpty(s1));
-        System.out.println(StringUtils.isEmpty(s2));
-        System.out.println(StringUtils.isBlank(s3));
-        System.out.println(StringUtils.isEmpty(s3));
+
 
     }
 }

@@ -1,0 +1,75 @@
+
+M
+java:S1066¥"/Merge this if statement with the enclosing one.(•Û§Ì8œ“Œƒè1
+M
+java:S1066ª"/Merge this if statement with the enclosing one.(‹Ê¢µ8“Œƒè1
+R
+java:S1066¯"/Merge this if statement with the enclosing one.(íùğáşÿÿÿÿ8“Œƒè1
+n	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß”â¢8 “Œƒè1
+n	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€8¡“Œƒè1
+s	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤¢öøÿÿÿÿ8¡“Œƒè1
+|
+java:S1488¦"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~8¢“Œƒè1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ8¬šŒƒè1
+Q
+java:S1172	"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ8°šŒƒè1
+r	java:S116Ê"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8³šŒƒè1
+u	java:S116Ì"SRename this field "content_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğşøøÿÿÿÿÿ8³šŒƒè1
+v	java:S116ˆ"TRename this field "sendTime_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¡ğøÿÿÿÿ8³šŒƒè1
+t	java:S116£"WRename this field "receiverUid_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÊ…â8³šŒƒè1
+t
+java:S1845š"QRename method "parser" to prevent any misunderstanding/clash with field "PARSER".(ÙÁ°ïûÿÿÿÿ8¶šŒƒè1
+‚
+java:S4144¤"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1035.(¶“ğÆ8·šŒƒè1
+M
+java:S1948Ì"*Make "content_" transient or serializable.(Ğşøøÿÿÿÿÿ8ºšŒƒè1
+L
+java:S1948£".Make "receiverUid_" transient or serializable.(âÊ…â8ºšŒƒè1
+z
+java:S3077Ì"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ğşøøÿÿÿÿÿ8»šŒƒè1
+u
+java:S3077£"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(âÊ…â8»šŒƒè1
+U
+java:S1481Œ"7Remove this unused "mutable_bitField0_" local variable.(ß”â¢8ÀšŒƒè1
+d
+java:S1126²"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ8ÚšŒƒè1
+Q
+java:S1874Ò".Remove this use of "PARSER"; it is deprecated.(‘±ÌÙûÿÿÿÿ8ßšŒƒè1
+Q
+java:S1874Ø".Remove this use of "PARSER"; it is deprecated.(Èñš´şÿÿÿÿ8àšŒƒè1
+Q
+java:S1874İ".Remove this use of "PARSER"; it is deprecated.(‘±ÌÙûÿÿÿÿ8àšŒƒè1
+Q
+java:S1874ã".Remove this use of "PARSER"; it is deprecated.(Èñš´şÿÿÿÿ8ášŒƒè1
+Q
+java:S1874ç".Remove this use of "PARSER"; it is deprecated.(‘±ÌÙûÿÿÿÿ8âšŒƒè1
+Q
+java:S1874í".Remove this use of "PARSER"; it is deprecated.(Èñš´şÿÿÿÿ8âšŒƒè1
+L
+java:S1874ò".Remove this use of "PARSER"; it is deprecated.(ó•È8ãšŒƒè1
+L
+java:S1874ù".Remove this use of "PARSER"; it is deprecated.(¦ï¡ƒ8äšŒƒè1
+L
+java:S1874ş".Remove this use of "PARSER"; it is deprecated.(†‰ä8äšŒƒè1
+Q
+java:S1874…".Remove this use of "PARSER"; it is deprecated.(¦í·ãıÿÿÿÿ8åšŒƒè1
+L
+java:S1874‹".Remove this use of "PARSER"; it is deprecated.(ó•È8æšŒƒè1
+L
+java:S1874’".Remove this use of "PARSER"; it is deprecated.(¦ï¡ƒ8çšŒƒè1
+r	java:S116å"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8êšŒƒè1
+p	java:S116ç"SRename this field "content_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÂ÷ÿ8êšŒƒè1
+v	java:S116Ó"TRename this field "sendTime_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¡ğøÿÿÿÿ8êšŒƒè1
+t	java:S116Š"WRename this field "receiverUid_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÔÛ8êšŒƒè1
+F	java:S108Î")Either remove or fill this block of code.(º„ç½8ñšŒƒè1
+v
+java:S2975ˆ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ8öšŒƒè1
+_
+java:S1126Í"AReplace this if-then-else statement by a single return statement.(ÛËàŸ8›Œƒè1
+K
+java:S1874Ú".Remove this use of "PARSER"; it is deprecated.(éşã%8ƒ›Œƒè1
+Q
+java:S1874›".Remove this use of "PARSER"; it is deprecated.(·Œšºøÿÿÿÿ8•›Œƒè1
+Q
+java:S1874 ".Remove this use of "PARSER"; it is deprecated.(·Œšºøÿÿÿÿ8–›Œƒè1

@@ -1,0 +1,16 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ø¼Èî
+E
+java:S3740&"/Provide the parametrized type for this generic.(Æ–Ò
+Q
+java:S1854";Remove this useless assignment to local variable "treeMap".(ø¼Èî
+N
+java:S1854,"9Remove this useless assignment to local variable "users".(ìÒÀ(
+B
+java:S1481",Remove this unused "treeMap" local variable.(ø¼Èî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(îÿ¦îÿÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(”‹‚‹
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(õš‡àúÿÿÿÿ
+?
+java:S1481,"*Remove this unused "users" local variable.(ìÒÀ(

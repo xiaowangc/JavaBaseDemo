@@ -1,8 +1,11 @@
 package com.chige.util;
 
+import cn.hutool.core.util.RandomUtil;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.*;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,20 +29,32 @@ public class StringTest {
         byte[] bytes = {52,57,52};
         String s = StringUtils.toEncodedString(bytes, Charset.defaultCharset());
         System.out.println(s);
-
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        String arg = "0,12_,_23_";
 //        arg = arg.replaceAll("_","");
 //        System.out.println("arg=" + arg);
 //        String arg1 = "0,23";
 //        arg1 = arg1.replaceAll("_","");
 //        System.out.println("arg1=" + arg1);
-//        byteArrayToString();
-        Integer totalNum = 19;
-        Integer pageSize = 20;
-        System.out.println(countTotalPage(totalNum, pageSize));
+////        byteArrayToString();
+//        Integer totalNum = 19;
+//        Integer pageSize = 20;
+//        System.out.println(countTotalPage(totalNum, pageSize));
+        String s = "aa\n";
+        byte[] bytes = s.getBytes(StandardCharsets.UTF_8);
+        System.out.println(bytes.length);
+        String path = System.getProperty("user.dir") + "/thread/src/main/resources/1.txt";
+        FileOutputStream fileInputStream = new FileOutputStream(path);
+        fileInputStream.write(bytes);
+        File file = new File(path);
+        FileInputStream fileInputStream1 = new FileInputStream(file);
+        byte[] bytes1 = new byte[(int) file.length()];
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream1));
+        String s2 = bufferedReader.readLine();
+        System.out.println(s2);
+
     }
 
     /**

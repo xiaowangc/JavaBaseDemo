@@ -1,0 +1,11 @@
+
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8—ÈöÈÎ1
+]
+java:S1854";Remove this useless assignment to local variable "collect".(çåà°þÿÿÿÿ8Šæù£Í1
+N
+java:S1481",Remove this unused "collect" local variable.(çåà°þÿÿÿÿ8‹æù£Í1
+^
+java:S1128"<Remove this unused import 'com.google.common.collect.Lists'.(ˆäóöøÿÿÿÿ8†ìôÈÎ1
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8†ìôÈÎ1

@@ -1,0 +1,21 @@
+
+a
+java:S18542"?Remove this useless assignment to local variable "manualCache".(Í„¨æşÿÿÿÿ8¿¼™øğ0
+R
+java:S14812"0Remove this unused "manualCache" local variable.(Í„¨æşÿÿÿÿ8Á¼™øğ0
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(ú¿¼®8Â¼™øğ0
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(â¹ˆ¼8Â¼™øğ0
+T	java:S106L"9Replace this use of System.out or System.err by a logger.(øı,8Â¼™øğ0
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ÙöÏÆıÿÿÿÿ8Ã¼™øğ0
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(À·¼÷8Ã¼™øğ0
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(Óû¸–ûÿÿÿÿ8Ã¼™øğ0
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(³¤­ÿÿÿÿÿ8Ã¼™øğ0
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(Ì—… 8Ã¼™øğ0
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ÙöÏÆıÿÿÿÿ8Ä¼™øğ0
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(ğ“8Ä¼™øğ0
+
+java:S1130w"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(‹¸Ã×8Å¼™øğ0
+”
+java:S1130w"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‹¸Ã×8Å¼™øğ0
+›
+java:S1130w"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(‹¸Ã×8Å¼™øğ0
